@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+  <parameter name="username" value="Admin"></parameter>
+  <parameter name="password" value="admin123"></parameter>
+  
+  
+  
+<!--  <parameter name="Inusername" value="ash"></parameter>
+  <parameter name="Inpassword" value="123"></parameter>
+  
+  
+    <parameter name="usn" value="ash"></parameter>
+    <parameter name="pwd" value=""></parameter>     -->
+    <classes>
+      <class name="pckgaeO.Login0"/>
+      
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
