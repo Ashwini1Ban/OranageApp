@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 //Navigate to the PIM module, Add Employees, Verify Employees in the Employee List, logout
 
 
-// changes mad by User B 
+// changes mad by User B  ,now A
 public class Login0 {
 
 	WebDriver driver;
