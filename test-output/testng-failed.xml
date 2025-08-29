@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="password" value="admin123"/>
+    <parameter name="password" value="admin123z"/>
     <parameter name="username" value="Admin"/>
     <classes>
       <class name="pckgaeO.Login0">
