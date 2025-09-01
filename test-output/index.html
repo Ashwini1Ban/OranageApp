@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="pckgaeO.Login0" class="method navigator-link" hash-for-method="Login_004(Admin, admin123z)">Login_004(Admin, admin123z)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="pckgaeO.Login0" class="method navigator-link" hash-for-method="Login_001(Admin, admin123z)">Login_001(Admin, admin123z)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -127,38 +127,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login_004(Admin, admin123z)">
-                  </a> <!-- Login_004(Admin, admin123z) -->
-                  <span class="method-name">Login_004</span>
+                  <a name="Login_001(Admin, admin123z)">
+                  </a> <!-- Login_001(Admin, admin123z) -->
+                  <span class="method-name">Login_001</span>
                   <span class="parameters">(Admin, admin123z)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=139.0.7258.139)
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [675f4cc78a1acf4eb9ab9dfdfc9ba3a7, findElement {value=//ul[@class=&apos;oxd-main-menu&apos;]/li/a/span[text()=&apos;PIM&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\ashwi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58773/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 675f4cc78a1acf4eb9ab9dfdfc9ba3a7
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pckgaeO.Login0.Login_004(Login0.java:160)
+                  <div class="stack-trace">java.lang.AssertionError: testcase failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login] but found [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]
+	at pckgaeO.Login0.Login_001(Login0.java:71)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (to verify login functionality with valid usename and valid password)                  </em>
@@ -222,14 +198,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login_004')
+data.setCell(0, 1, 'Login_001')
 data.setCell(0, 2, 'pckgaeO.Login0')
-data.setCell(0, 3, 12736);
+data.setCell(0, 3, 8374);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -250,11 +226,11 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">pckgaeO.Login0</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">Login_004</span>
+                <br/>
                 <span class="ignored-method-name">Login_002</span>
                 <br/>
                 <span class="ignored-method-name">Login_003</span>
-                <br/>
-                <span class="ignored-method-name">Login_001</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -274,12 +250,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Login_004(Admin, admin123z)</span>
-                <span class="method-start">3936 ms</span>
+                <span class="method-name">Login_001(Admin, admin123z)</span>
+                <span class="method-start">5575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">time</span>
-                <span class="method-start">16680 ms</span>
+                <span class="method-start">13967 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

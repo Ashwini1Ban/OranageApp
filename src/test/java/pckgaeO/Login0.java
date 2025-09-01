@@ -47,7 +47,7 @@ public class Login0 {
 	
 	
   @Parameters({"username","password"})	
-  @Test(description="to verify login functionality with valid usename and valid password",enabled=false)
+  @Test(description="to verify login functionality with valid usename and valid password")
   public void Login_001(String n, String v) throws InterruptedException {
 	  
 	  WebDriverWait waits=new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -125,7 +125,7 @@ public class Login0 {
   
   
   @Parameters({"username","password"})	
-  @Test(description="to verify login functionality with valid usename and valid password")
+  @Test(description="to verify login functionality with valid usename and valid password",enabled=false)
   public void Login_004(String un, String pw) throws InterruptedException {
 	  
 	  WebDriverWait waits=new WebDriverWait(driver,Duration.ofSeconds(10));

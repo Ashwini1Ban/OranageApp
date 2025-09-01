@@ -8,8 +8,8 @@
       <class name="pckgaeO.Login0">
         <methods>
           <include name="time"/>
-          <include name="Login_004" invocation-numbers="0"/>
           <include name="get"/>
+          <include name="Login_001" invocation-numbers="0"/>
         </methods>
       </class> <!-- pckgaeO.Login0 -->
     </classes>
