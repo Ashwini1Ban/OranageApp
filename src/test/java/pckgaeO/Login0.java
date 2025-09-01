@@ -25,9 +25,7 @@ import org.testng.annotations.Test;
 //Navigate to the PIM module, Add Employees, Verify Employees in the Employee List, logout
 
 
-// changes mad by User B  ,now A
-//new branch
-// as on 01/9-25
+
 public class Login0 {
 
 	WebDriver driver;
