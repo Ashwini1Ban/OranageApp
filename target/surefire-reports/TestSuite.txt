@@ -1,17 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.21 s <<< FAILURE! - in TestSuite
-pckgaeO.Login0.Login_004[Admin, admin123z](1)  Time elapsed: 12.734 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=139.0.7258.139)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [76b7998323d348cc566582e335e1317d, findElement {using=xpath, value=//ul[@class='oxd-main-menu']/li/a/span[text()='PIM']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\ashwi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53674/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 76b7998323d348cc566582e335e1317d
-	at pckgaeO.Login0.Login_004(Login0.java:160)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.293 s <<< FAILURE! - in TestSuite
+pckgaeO.Login0.Login_001[Admin, admin123z](1)  Time elapsed: 7.739 s  <<< FAILURE!
+java.lang.AssertionError: testcase failed expected [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login] but found [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]
+	at pckgaeO.Login0.Login_001(Login0.java:69)
 
