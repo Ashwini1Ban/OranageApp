@@ -92,7 +92,7 @@ public class Login0 {
 	 String txt= driver.findElement(By.xpath("//div[@class='oxd-alert-content oxd-alert-content--error']")).getText();
 	 System.out.println(txt);
 	 
-	 String expectedtxt="Invalid credentials";
+	 String expectedtxt="Invalid credentialsz";
 	 Assert.assertEquals(expectedtxt, txt, "testcase 2 failed");
   }
   
