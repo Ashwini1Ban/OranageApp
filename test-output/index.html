@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="pckgaeO.Login0" class="method navigator-link" hash-for-method="Login_001(Admin, admin123)">Login_001(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="pckgaeO.Login0" class="method navigator-link" hash-for-method="Login_002(ash, 123)">Login_002(ash, 123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -135,6 +140,16 @@
 (to verify login functionality with valid usename and valid password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_002(ash, 123)">
+                  </a> <!-- Login_002(ash, 123) -->
+                  <span class="method-name">Login_002</span>
+                  <span class="parameters">(ash, 123)</span>
+                  <em>
+(to verify login functionality with valid usename and valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -149,6 +164,8 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;admin123&quot;/&gt;
+    &lt;parameter name=&quot;Inpassword&quot; value=&quot;123&quot;/&gt;
+    &lt;parameter name=&quot;Inusername&quot; value=&quot;ash&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;Admin&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;pckgaeO.Login0&quot;/&gt;
@@ -191,16 +208,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Login_001')
 data.setCell(0, 2, 'pckgaeO.Login0')
-data.setCell(0, 3, 8954);
+data.setCell(0, 3, 8863);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login_002')
+data.setCell(1, 2, 'pckgaeO.Login0')
+data.setCell(1, 3, 8343);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -215,15 +236,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">pckgaeO.Login0</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">Login_004</span>
-                <br/>
-                <span class="ignored-method-name">Login_002</span>
                 <br/>
                 <span class="ignored-method-name">Login_003</span>
                 <br/>
@@ -244,11 +263,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login_001(Admin, admin123)</span>
-                <span class="method-start">3663 ms</span>
+                <span class="method-start">4510 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">time</span>
-                <span class="method-start">12624 ms</span>
+                <span class="method-start">13379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">get</span>
+                <span class="method-start">13612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_002(ash, 123)</span>
+                <span class="method-start">17257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">time</span>
+                <span class="method-start">25616 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

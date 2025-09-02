@@ -25,7 +25,6 @@ import org.testng.annotations.Test;
 //Navigate to the PIM module, Add Employees, Verify Employees in the Employee List, logout
 
 
-//  yes
 public class Login0 {
 
 	WebDriver driver;
@@ -73,7 +72,7 @@ public class Login0 {
   
   
   @Parameters({"Inusername","Inpassword"})	
-  @Test(description="to verify login functionality with valid usename and valid password",enabled=false)
+  @Test(description="to verify login functionality with valid usename and valid password")
   public void Login_002(String nn, String vv) throws InterruptedException {
 	  
 	  WebDriverWait waits=new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -90,8 +89,11 @@ public class Login0 {
 	  driver.findElement(By.xpath("//button[@type='submit']")).click();
 	  Thread.sleep(5000);
 
-	 String tt= driver.findElement(By.xpath("//div[@class='oxd-alert-content oxd-alert-content--error']")).getText();
-	 System.out.println(tt);
+	 String txt= driver.findElement(By.xpath("//div[@class='oxd-alert-content oxd-alert-content--error']")).getText();
+	 System.out.println(txt);
+	 
+	 String expectedtxt="Invalid credentials";
+	 Assert.assertEquals(expectedtxt, txt, "testcase 2 failed");
   }
   
   
@@ -305,7 +307,7 @@ public class Login0 {
   @AfterMethod
   public void time() 
   {
-//	 driver.quit();
+	 driver.quit();
   }
   
   

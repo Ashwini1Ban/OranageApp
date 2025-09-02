@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-01T18:11:13 IST" name="Suite" finished-at="2025-09-01T18:11:26 IST" duration-ms="12657">
+  <suite started-at="2025-09-02T11:20:42 IST" name="Suite" finished-at="2025-09-02T11:21:08 IST" duration-ms="25819">
     <groups>
     </groups>
-    <test started-at="2025-09-01T18:11:13 IST" name="Test" finished-at="2025-09-01T18:11:26 IST" duration-ms="12657">
+    <test started-at="2025-09-02T11:20:42 IST" name="Test" finished-at="2025-09-02T11:21:08 IST" duration-ms="25819">
       <class name="pckgaeO.Login0">
-        <test-method is-config="true" signature="get()[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-01T18:11:13 IST" name="get" finished-at="2025-09-01T18:11:17 IST" duration-ms="3662" status="PASS">
+        <test-method is-config="true" signature="get()[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-02T11:20:42 IST" name="get" finished-at="2025-09-02T11:20:47 IST" duration-ms="4509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get -->
-        <test-method signature="Login_001(java.lang.String,java.lang.String)[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-01T18:11:17 IST" name="Login_001" description="to verify login functionality with valid usename and valid password" finished-at="2025-09-01T18:11:26 IST" duration-ms="8954" status="PASS">
+        <test-method signature="Login_001(java.lang.String,java.lang.String)[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-02T11:20:47 IST" name="Login_001" description="to verify login functionality with valid usename and valid password" finished-at="2025-09-02T11:20:55 IST" duration-ms="8863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_001 -->
-        <test-method is-config="true" signature="time()[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-01T18:11:26 IST" name="time" finished-at="2025-09-01T18:11:26 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="time()[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-02T11:20:55 IST" name="time" finished-at="2025-09-02T11:20:56 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method is-config="true" signature="get()[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-02T11:20:56 IST" name="get" finished-at="2025-09-02T11:20:59 IST" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method signature="Login_002(java.lang.String,java.lang.String)[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-02T11:20:59 IST" name="Login_002" description="to verify login functionality with valid usename and valid password" finished-at="2025-09-02T11:21:08 IST" duration-ms="8343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_002 -->
+        <test-method is-config="true" signature="time()[pri:0, instance:pckgaeO.Login0@43195e57]" started-at="2025-09-02T11:21:08 IST" name="time" finished-at="2025-09-02T11:21:08 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- time -->
